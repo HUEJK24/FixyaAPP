@@ -6,7 +6,7 @@ import 'dart:convert';
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
 }
 
 class LoginPage extends StatefulWidget {
-  const LoginPage({Key? key}) : super(key: key);
+  const LoginPage({super.key});
 
   @override
   State<LoginPage> createState() => _LoginPageState();
@@ -92,7 +92,7 @@ class _LoginPageState extends State<LoginPage> {
 }
 
 class ServicePage extends StatefulWidget {
-  const ServicePage({Key? key}) : super(key: key);
+  const ServicePage({super.key});
 
   @override
   State<ServicePage> createState() => _ServicePageState();

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
 import 'dart:typed_data';
 import 'package:convert/convert.dart'; // Para manejar la conversión de hexadecimal a bytes
 

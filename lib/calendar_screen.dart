@@ -243,7 +243,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
 class UserProposalsScreen extends StatelessWidget {
   final List<dynamic> proposals;
 
-  const UserProposalsScreen({Key? key, required this.proposals}) : super(key: key);
+  const UserProposalsScreen({super.key, required this.proposals});
 
   @override
   Widget build(BuildContext context) {
